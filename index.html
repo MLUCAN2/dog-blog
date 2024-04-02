@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
 
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>The Dog Blog</title>
+</head>
+
+<body>
+    <!--Header Section-->
+    <section class="container">
+    <header class="header-container">
+        <h1>The Dog Blog</h1>
+    <section class="toggle-container">
+       <!-- Theme switcher here -->
+       <input type="checkbox" id="theme-switcher">
+       <label>🔅</label>
+       <span class="slider-round"></span>
+    </section>
+    </header>
+    <main class="main-body">
+        <!-- Left-side section w/image -->
+        <section class="intro-left">
+            <img src="assets/css/Images/dogs.jpg" alt="dogs">
+            <h2>Tell us about your fur children in the window next door!</h2>
+        </section>
+        <!-- Right-Side section w/form -->
+        <section class="form-container">
+            <header class="card-header">
+                <h2>Share your dog below.</h2>
+            </header>
+            <form class="card" id="form">
+                <section class="row">
+                    <section class="form">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" class="form-input" name="username" placeholder="Enter Username"/>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="form">
+                        <label for="title">Title</label>
+                        <input id="title" type="text" class="form-input" name="Title" placeholder="Enter Title"/>
+                    </section>
+                </section>
+                <section class="row">
+                    <section class="form">
+                        <label for="Comment">Comments</label>
+                        <textarea id="comment" type="text" class="form-input" name="comment" placeholder="Enter Comment"></textarea>
+                    </section>
+                </section>
+                <!-- Submit button -->
+                <card-footer class="card-footer">
+                    <button type= "submit" class="button">Submit</button>
+                </card-footer>
+            </form>
+            <p id="error"></p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact-me">
+            <h1>Contact Creator</h1>
+            <ul>
+                <li>Phone: (325) 514-0282</li>
+                <li>Email: myronlucan@gmail.com</li>
+                <li><a href= "https://mlucan2.github.io/myron-professional-portfolio/">My Portfolio</a></li>
+            </ul>
+        </section>    
+    </footer>
+
+
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/script.js"></script>
+    </section>
+</body>

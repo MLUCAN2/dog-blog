@@ -1,0 +1,59 @@
+*{
+    font-family:fantasy;  
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    margin-right: 20px;
+}
+/* slider effects */
+.dark{
+    background-color: grey;
+    color: white;
+    height: max-content;
+    
+}
+.light{
+    background-color: white;
+    color: black;
+    height: max-content;
+    
+}
+  /* end of slider effects */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+.card{
+    border: 1px solid black;
+    padding: 12px;
+    
+}
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+     
+}
+.contact-me ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+}
+.contact-me ul li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}

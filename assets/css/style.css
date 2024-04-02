@@ -1,0 +1,96 @@
+*{
+    font-family:fantasy;
+    margin: 0%;
+    padding: 0%;  
+    list-style-type: none;
+}
+
+html,body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    height: 100vh;
+}
+/* slider effects */
+.dark{
+    background-color: grey;
+    color: white;
+    height: max-content;
+    
+}
+.light{
+    background-color: white;
+    color: black;
+    height: max-content;
+    
+}
+  /* end of slider effects */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+.header-container h1{
+    margin:0
+}
+.form-container{
+    border: 1px solid black;
+    width: 50%;  
+}
+.card-header{
+   margin: 50px;
+    
+}
+.main-body{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: center;  
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px;
+    width: 50%;
+
+}
+.intro-left img{
+    border-radius: 100px;
+    padding: 15px 15px 15px 15px;
+}
+.form{
+   display: flex;
+   flex-direction: column;
+   margin: 50px;
+}
+.card-footer{
+    margin: 50px;
+}
+/* Contact-me Section */
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+     
+}
+.contact-me ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+}
+.contact-me ul li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
