@@ -18,11 +18,3 @@ themeSwitcher.addEventListener('click',function (){
         containter.setAttribute('class', 'dark')
     }
 })
-
-
-// function navigateToBlogPage(){
-//     window.log.href= 'blog.html'
-// }
-// function navigateToHomePage(){
-//     window.log.href= 'index.html'
-// }

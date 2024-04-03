@@ -1,23 +1,21 @@
 console.log (window);
 console.log(window.document)
 
-
-
-//Back button
+//Back button to go back to previous page
 function handleBack(event){
     event.preventDefault();
     window.history.back();
 }
+// Links the back button on the page and gives it an event listener (the 'click')
 const backButon= document.getElementById('back-button');
 backButon.addEventListener('click',handleBack);
 
 
 // Light/Dark Mode Toggle Section
 const themeSwitcher= document.querySelector('#theme-switcher');
+console.log ('themeSwitcher')
 const containter= document.querySelector('.container');
-
-let mode = 'dark'
-
+let mode= 'dark'
 themeSwitcher.addEventListener('click',function (){
     if(mode === 'dark'){
         mode = 'light';
@@ -28,7 +26,7 @@ themeSwitcher.addEventListener('click',function (){
         containter.setAttribute('class', 'dark')
     }
 })
-
+// Blog section-updates the blog page by pulling from local storage
 function displayBlogs (){
     const blogs=JSON.parse(localStorage.getItem("blogs"))||[]
     const blogsEl=document.querySelector("#blogs")

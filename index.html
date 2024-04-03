@@ -14,9 +14,11 @@
         <h1>The Dog Blog</h1>
     <section class="toggle-container">
        <!-- Theme switcher here -->
-       <input type="checkbox" id="theme-switcher">
-       <label>🔅</label>
-       <span class="slider-round"></span>
+       <label class="switch">
+        <input type="checkbox" id="theme-switcher">
+        <span class="slider"></span>
+       </label>
+       <label for="theme-switcher">🔅</label>
     </section>
     </header>
     <main class="main-body">
@@ -54,11 +56,13 @@
                     <button type= "submit" class="button">Submit</button>
                 </card-footer>
             </form>
+            <!-- Error message when submitting improperly filled form- links with form JS-->
             <p id="error"></p>
         </section>
     </main>
 
     <footer>
+        <!-- Contact-me section -->
         <section class="contact-me">
             <h1>Contact Creator</h1>
             <ul>
@@ -69,7 +73,7 @@
         </section>    
     </footer>
 
-
+    <!-- Links for JS -->
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/script.js"></script>
     </section>
